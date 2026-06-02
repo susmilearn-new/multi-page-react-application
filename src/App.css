@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+
+  --surface: #faf8ff;
+  --surface-container-lowest: #ffffff;
+  --outline: #C2C6D4;
+  --outline-variant: #bbcabf;
+  --primary: #006c49;
+  --on-primary: #ffffff;
+  --primary-container: #10b981;
+  --on-primary-container: #00422b;
+  --inverse-primary: #4edea3;
+  --secondary: #515f74;
+
+}
+
+
+body {
+  background-color: var(--surface);
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--outline);
+}
+
+.navbar-collapse.show {
+  height: 95vh;
+  padding-top: 20px;
+}
+
+.primary-text {
+  color: var(--primary);
+}
+
+.redirection-box {
+  background-color: var(--surface-container-lowest);
+  border: 1px solid var(--outline);
+  border-radius: 8px;
+}
+
+.count-container {
+  background-color: #F3F4F5;
+  border: 1px solid var(--outline);
+  border-radius: 8px;
+  width: 94%;
+}
+
+.counter-set p,
+footer p {
+  font-size: 14px;
+  color: var(--secondary);
+}
+
+footer {
+  background-color: var(--outline-variant);
+}
+
+.navbar-nav a {
+  text-decoration: none;
+}
+
+a {
+  color: #000;
+}
+
+nav a:hover {
+  color: var(--primary);
+}
+
+.home-banner h6,
+.about-banner h6 {
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.back-btn {
+  background-color: var(--on-primary-container);
+  color: var(--surface-container-lowest);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.back-btn:hover {
+  background-color: var(--primary-container);
+}
+
+.back-btn svg {
+  width: 30px;
+  height: auto;
+  fill: var(--surface-container-lowest);
+  padding-right: 10px;
+}
+
+.about-banner h6 {
+  background-color: var(--inverse-primary);
+  border-radius: 8px;
+  width: fit-content;
+  color: var(--on-primary-container);
+}
+
+.mission-container {
+  background-color: var(--on-primary-container);
+}
+
+.mission-container p,
+.about-boxes-top p {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.users-box {
+  border: 1px solid var(--outline-variant);
+  border-radius: 8px;
+}
+
+.users-box img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.users-box a {
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.users-box a:hover {
+  color: var(--on-primary);
+  background-color: var(--primary);
+}
+
+.information-title {
+  border: var(--outline-variant);
+  background-color: var(--inverse-primary);
+  border-radius: 8px 8px 0px 0px;
+}
+
+.information-box {
+  border: 1px solid var(--outline-variant);
+  border-radius: 0px 0px 8px 8px;
+}
+
+.information-box h6 {
+  font-size: 14px;
+  color: var(--secondary);
+}
+
+.information-box p {
+  font-size: 18px;
+}
